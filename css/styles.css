@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Tahoma', 'Geneva', sans-serif;
+}
+
+/*************** UTILITAIRES ***************/
+
+.green {
+    background-color: greenyellow;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+/*************** FIN UTILITAIRES ************/
+
+.card {
+    height: 600px;
+    width: 400px;
+    border: solid 1px black;
+    background-color: aqua;
+    margin: 5% auto;
+}
+
+.top_box {
+    height: 100px;
+    width: 300px;
+    border: solid 1px black;
+    background-color: white;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.top_box p {
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.prefab_box {
+    height: 50px;
+    width: 300px;
+    border: solid 1px black;
+    margin: 30px auto;
+    text-align: center;
+    visibility: hidden;
+}
+
+.prefab_box p {
+    padding-top: 10px; 
+}
